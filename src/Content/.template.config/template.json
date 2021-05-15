@@ -1,16 +1,16 @@
 {
   "$schema": "http://json.schemastore.org/template",
   "author": "Thierry Brachthuizer",
-  "classifications": [ "Test/MSTest" ],
-  "name": "Catharsium.Templates.UnitTests",
-  "defaultName": "Catharsium.Templates.UnitTests",
-  "identity": "Catharsium.Templates.UnitTests.v1",
-  "shortName": "tests",
+  "classifications": [ "Common/Library" ],
+  "name": "Catharsium.Templates.ClassLibrary",
+  "defaultName": "Catharsium.Templates.ClassLibrary",
+  "identity": "Catharsium.Templates.ClassLibrary.v1",
+  "shortName": "catharsiumproject",
   "tags": {
     "language": "C#",
     "type": "project"
   },
-  "sourceName": "Catharsium.Templates.UnitTests",
+  "sourceName": "Catharsium.Templates.ClassLibrary",
   "preferNameDirectory": true,
   "symbols": {
     "ProjectClassName": {
