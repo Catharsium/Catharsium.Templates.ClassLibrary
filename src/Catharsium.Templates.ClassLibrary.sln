@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Template Files", "Template Files", "{C6A19B4D-CFB3-4060-9028-33DAEED802EB}"
+	ProjectSection(SolutionItems) = preProject
+		Content\.template.config\template.json = Content\.template.config\template.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catharsium.Templates.ClassLibrary", "Content\Catharsium.Templates.ClassLibrary\Catharsium.Templates.ClassLibrary.csproj", "{A1740FA5-51FA-4723-B6C6-1102D928D856}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catharsium.Templates.ClassLibrary.Tests", "Content\Catharsium.Templates.ClassLibrary.Tests\Catharsium.Templates.ClassLibrary.Tests.csproj", "{C216B1BF-E830-4409-B6B6-DAFC3F92C83B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1740FA5-51FA-4723-B6C6-1102D928D856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1740FA5-51FA-4723-B6C6-1102D928D856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1740FA5-51FA-4723-B6C6-1102D928D856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1740FA5-51FA-4723-B6C6-1102D928D856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C216B1BF-E830-4409-B6B6-DAFC3F92C83B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C216B1BF-E830-4409-B6B6-DAFC3F92C83B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C216B1BF-E830-4409-B6B6-DAFC3F92C83B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C216B1BF-E830-4409-B6B6-DAFC3F92C83B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DABCF759-FFF2-4C15-A8FE-30F15676D7C5}
+	EndGlobalSection
+EndGlobal

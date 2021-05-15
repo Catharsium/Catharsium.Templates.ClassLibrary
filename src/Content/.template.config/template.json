@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Thierry Brachthuizer",
+  "classifications": [ "Test/MSTest" ],
+  "name": "Catharsium.Templates.UnitTests",
+  "defaultName": "Catharsium.Templates.UnitTests",
+  "identity": "Catharsium.Templates.UnitTests.v1",
+  "shortName": "tests",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "Catharsium.Templates.UnitTests",
+  "preferNameDirectory": true,
+  "symbols": {
+    "ProjectClassName": {
+      "type": "derived",
+      "valueSource": "name",
+      "valueTransform": "classNameForm",
+      "description": "Dependency name",
+      "defaultValue": "",
+      "replaces": "CatharsiumProjectClassName"
+    }
+  },
+  "forms": {
+    "classNameForm": {
+      "identifier": "replace",
+      "pattern": "^(Catharsium|\\.)",
+      "replacement": ""
+    }
+  }
+}
