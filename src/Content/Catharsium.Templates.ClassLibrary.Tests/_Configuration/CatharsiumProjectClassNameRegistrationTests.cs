@@ -10,22 +10,22 @@ namespace Catharsium.Templates.ClassLibrary.Tests._Configuration
     public class CatharsiumProjectClassNameRegistrationTests
     {
         [TestMethod]
-        public void AddProject_RegistersDependencies()
+        public void AddCatharsiumProjectClassName_RegistersDependencies()
         {
             var serviceCollection = Substitute.For<IServiceCollection>();
             var configuration = Substitute.For<IConfiguration>();
 
-            serviceCollection.AddUnitTests(configuration);
+            serviceCollection.AddCatharsiumProjectClassName(configuration);
         }
 
 
         [TestMethod]
-        public void AddProject_RegistersPackages()
+        public void AddCatharsiumProjectClassName_RegistersPackages()
         {
             var serviceCollection = Substitute.For<IServiceCollection>();
             var configuration = Substitute.For<IConfiguration>();
 
-            serviceCollection.AddUnitTests(configuration);
+            serviceCollection.AddCatharsiumProjectClassName(configuration);
         }
     }
 }
